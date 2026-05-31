@@ -1,0 +1,147 @@
+PHP Plamodel Method
+A new external OS structure for building web applications with parts, settings, and composition.
+
+## 1. Overview
+The PHP Plamodel Method is an external‑structure OS concept that treats programs as parts, changes behavior through settings, and builds features through composition.
+It does not depend on internal logic or hidden frameworks.
+Everything is controlled by a simple, unified external grammar.
+
+This repository defines the external specification only.
+Internal logic, internal reasoning, and internal implementation details remain private to each creator.
+
+## 2. Core Philosophy (External Only)
+The method is based on three external principles:
+
+1. Part‑ization
+Break logic into small, reusable parts.
+
+2. Setting‑ization
+Control behavior using settings instead of rewriting code.
+
+3. Composition
+Combine parts to build features, similar to assembling a plastic model.
+
+These principles allow anyone to build applications without touching internal logic.
+
+## 3. Three‑Layer Structure
+The system is organized into three external layers:
+
+1. parts / flow
+External components
+
+Define what the application does
+
+Fully replaceable and shareable
+
+2. model.php
+Receives values from parts
+
+Passes them to the core
+
+No internal logic is exposed
+
+3. core.php
+The internal engine (not included here)
+
+Completely separated from external grammar
+
+Each creator owns their own core
+
+This separation ensures safety, portability, and clear ownership.
+
+## 4. External Grammar (10 Actions)
+The method uses a fixed external grammar of 10 actions.
+These actions define how parts communicate with the model and core.
+
+Examples include:
+
+get
+
+filter
+
+sort
+
+render
+
+validate
+
+store
+
+(Full list is defined in the external specification.)
+
+This grammar is stable and does not depend on internal logic.
+
+## 5. Market Structure
+Because parts follow a unified external grammar:
+
+Parts can be shared, sold, or exchanged
+
+Each part’s internal logic belongs to its creator
+
+Only the external interface is standardized
+
+This enables a new ecosystem similar to a “parts marketplace.”
+
+## 6. Installation Flow (Level 8)
+The installation process follows a simple 9‑step flow:
+
+Receive unique URL
+
+Fill out questionnaire
+
+Download demo ZIP
+
+Run local test
+
+Confirm operation
+
+Pay after confirmation
+
+Receive production ZIP
+
+Unlock with password
+
+Start using the system
+
+This flow ensures safety and clarity for beginners and professionals.
+
+## 7. Who This Is For
+Beginners
+Can build applications by combining parts
+
+No need to understand internal logic
+
+Experienced Developers
+Can create their own parts
+
+Can design their own core
+
+Maintain full ownership of internal logic
+
+Researchers / Architects
+Can study the external grammar
+
+Can analyze the structure without accessing internal logic
+
+## 8. What This Repository Contains
+✔ External specification
+✔ External grammar
+✔ Three‑layer structure
+✔ Philosophy (external only)
+✔ Market concept
+✔ Installation flow
+✔ Example folder structure
+
+❌ Internal logic
+❌ Internal reasoning
+❌ Core implementation
+❌ Private algorithms
+
+Internal elements are intentionally excluded.
+
+## 9. Creator’s Statement
+This external OS structure was defined and systematized by S.
+The internal logic, internal reasoning, and internal philosophy remain private.
+Only the external specification is published here.
+
+Anyone may build their own parts, flows, and cores using this external grammar.
