@@ -1,0 +1,41 @@
+## Folder Structure (External Only)
+
+This method uses a simple and clear external structure.
+Internal logic is not included in this repository.
+/  
+├── parts/              # External logic units (replaceable)
+│   └── example_part/
+│       ├── part.php    # External interface
+│       └── setting.json
+│
+├── flow/
+│   └── flow.php        # Defines the sequence of parts
+│
+├── model/
+│   └── model.php       # Receives values from parts and passes them to the core
+│
+├── core/
+│   └── core.php        # Internal engine (not included, private to each creator)
+│
+└── index.php           # Entry point
+
+## Example Use Case (External Only)
+
+1. Select a part (e.g., "post_list")
+2. Edit the external settings in setting.json
+3. Place the part inside the flow
+4. model.php receives the values from the part
+5. core.php processes internally (not included in this repository)
+6. The final output is rendered on index.php
+
+## Why This Method Exists (External Reason Only)
+
+Modern development often mixes logic and structure, creating complexity.
+This method separates them completely:
+
+- Parts = logic (owned by each creator)
+- Grammar = structure (shared external rules)
+- Core = private internal engine
+
+This separation makes systems stable, replaceable, and easier to build,
+especially in the AI era where code generation is common.
