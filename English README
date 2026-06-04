@@ -247,3 +247,6 @@ This document describes the philosophy, structure, and grammar specification.
 It is not code or implementation.
 Internal logic (core/server) remains private
 and is not included in this original document.
+
+The structures, grammar specifications, and Outer Structure OS concepts described in this document constitute an original system developed and organized by the author, S.
+Any implementation, adaptation, or application of these concepts requires prior authorization (license) from the author.
