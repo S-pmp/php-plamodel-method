@@ -30,6 +30,11 @@
 この3階層が揃うことで、
 PMP の「外側固定 × 文法10アクション × ロジック一本化」が成立します。
 
+※ This appendix describes only the outer structure (parts/model/core layering and minimal examples).  
+It does not include any internal logic or implementation details.  
+The core/server logic remains private and is not part of this document.
+
+
 
 ## 付録（Appendix）
 - [目的（Purpose）](PURPOSE.md)
