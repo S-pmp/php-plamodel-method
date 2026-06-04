@@ -1,147 +1,249 @@
-PHP Plamodel Method
-A new external OS structure for building web applications with parts, settings, and composition.
+Plamodel-Style Programming Philosophy —
+The Original Document of the Outer OS, Grammar Specification, and Black-Box Architecture (S)**
 
-## 1. Overview
-The PHP Plamodel Method is an external‑structure OS concept that treats programs as parts, changes behavior through settings, and builds features through composition.
-It does not depend on internal logic or hidden frameworks.
-Everything is controlled by a simple, unified external grammar.
+This philosophy, along with the Outer OS, grammar specification, and black‑box architecture,
+was proposed, defined, and systematized by S (Shou).
+This document serves as the official original source.
 
-This repository defines the external specification only.
-Internal logic, internal reasoning, and internal implementation details remain private to each creator.
+1. Background of This Philosophy
+Modern programming assumes that “writing code” is the default.
+However, in reality:
 
-## 2. Core Philosophy (External Only)
-The method is based on three external principles:
+Beginners struggle with syntax
 
-1. Part‑ization
-Break logic into small, reusable parts.
+Experienced developers rewrite the same logic repeatedly
 
-2. Setting‑ization
-Control behavior using settings instead of rewriting code.
+The market is filled with rigid templates
 
-3. Composition
-Combine parts to build features, similar to assembling a plastic model.
+AI now generates massive amounts of code
 
-These principles allow anyone to build applications without touching internal logic.
+Language barriers still remain
 
-## 3. Three‑Layer Structure
-The system is organized into three external layers:
+This situation has reached a structural limit.
 
-1. parts / flow
-External components
+Therefore, I conceived a philosophy that shifts programming
+from “writing code” to “assembling components.”
 
-Define what the application does
+2. What Is the Plamodel-Style Approach? (Definition)
+The Plamodel-style approach is a philosophy where:
 
-Fully replaceable and shareable
+Programs are built as “components (logic units)”
+and executed through “configuration” and “combination.”
 
-2. model.php
-Receives values from parts
+Writing code is no longer the goal—
+it becomes merely a tool for assembling components.
 
-Passes them to the core
+3. Problems This Philosophy Solves
+■ Beginner Barriers
+Syntax errors and environment setup stop progress
 
-No internal logic is exposed
+Nothing moves, so learning stalls
 
-3. core.php
-The internal engine (not included here)
+■ Inefficiency for Experienced Developers
+Rewriting the same logic
 
-Completely separated from external grammar
+Switching mental models between languages
 
-Each creator owns their own core
+■ Market Limitations
+Templates are “finished products” with low extensibility
 
-This separation ensures safety, portability, and clear ownership.
+Logic authorship is not protected
 
-## 4. External Grammar (10 Actions)
-The method uses a fixed external grammar of 10 actions.
-These actions define how parts communicate with the model and core.
+■ Contradiction in the AI Era
+AI writes code
 
-Examples include:
+Humans still learn under the assumption they must write it
 
-get
+The Plamodel-style approach solves these issues structurally.
+
+4. Core Structure of the Philosophy
+4‑1. Componentization (Minimal Logic Units)
+Programs are extracted as “components.”
+Each component is single‑purpose, reusable, and stable.
+
+4‑2. Configuration (Changing Behavior Without Code)
+Components change behavior through configuration files.
+Beginners only modify settings.
+
+4‑3. Combination (Building Features Like a Model Kit)
+Complex features emerge by combining components—
+just like assembling a plastic model.
+
+4‑4. Rights Structure (Protecting Authors)
+Logic authors retain copyright
+
+Users receive only “usage rights”
+
+Viewing rights are separate
+
+Modification requires permission
+
+4‑5. Market Structure (Components Become Assets)
+More components → more value.
+Network effects similar to an app store.
+
+4‑6. Language Independence
+Works in PHP, JavaScript, Python, and more.
+The philosophy transcends technology.
+
+4‑7. Alignment With the AI Era
+AI writes code.
+Humans focus on understanding, judging, and assembling.
+
+5. Why Beginners Grow (Learning Model)
+Something works immediately
+
+Only settings are touched
+
+Nothing breaks
+
+“Touch → Change → Understand”
+
+Code is read only when needed
+
+This is the reverse of traditional learning models.
+
+6. Why Experienced Developers Grow (Expansion Model)
+They can add components
+
+Modify logic (with permission)
+
+Develop across languages with the same philosophy
+
+Publish their own components to the market
+
+7. Market Formation (Economic Model)
+A component market forms naturally:
+
+Basic components
+
+Extended components
+
+Advanced components
+
+Viewing rights
+
+Templates
+
+Learning content
+
+These create a new programming economy.
+
+8. Why This Philosophy Spreads Globally (Structural Advantage)
+Beginners grow
+
+Experienced developers benefit
+
+Language‑independent
+
+Market expands automatically
+
+Rights are protected
+
+Ideal for the AI era
+
+Developer thinking becomes structured
+
+This is not a technology—
+it is a new industrial structure.
+
+9. Formal Definition of the Outer OS
+I defined the Outer OS (Outer Structure OS),
+which fixes the program’s grammar externally
+while allowing internal logic to be replaced freely.
+
+The Outer OS consists of three layers:
+
+● parts / flow (Outer Grammar)
+Application grammar is fixed externally.
+No logic is written here.
+
+● model (Receiver Layer)
+Receives the outer grammar and passes it to the core.
+
+● core (Logic Layer)
+Executes the actual processing.
+Completely separated from the outer grammar.
+
+This three‑layer structure enables
+complete separation of grammar and logic.
+
+10. Black‑Box Architecture (Definition)
+The central concept of the Outer OS is the Black Box.
+
+A black box means:
+
+Internal logic (core) is invisible
+
+public and server are fully separated
+
+Outer layer = grammar only
+
+Inner layer = logic only
+
+External modification of internal logic is impossible
+
+The black box ensures security, rights protection, and market viability.
+
+11. Original Grammar Specification (10 Actions)
+I defined 10 fundamental actions  
+that function as the outer grammar:
+
+get_posts
+
+get_item
 
 filter
 
 sort
 
+paginate
+
 render
 
-validate
+save_db
 
-store
+delete_db
 
-(Full list is defined in the external specification.)
+send_mail
 
-This grammar is stable and does not depend on internal logic.
+auth
 
-## 5. Market Structure
-Because parts follow a unified external grammar:
+These form the minimal grammar  
+usable across all applications
+and serve as the foundation of the Outer OS.
 
-Parts can be shared, sold, or exchanged
+12. Definition of the Market OS
+Built on top of the Outer OS is the Market OS.
 
-Each part’s internal logic belongs to its creator
+The Market OS includes:
 
-Only the external interface is standardized
+Component categories (basic / extended / advanced)
 
-This enables a new ecosystem similar to a “parts marketplace.”
+Viewing rights
 
-## 6. Installation Flow (Level 8)
-The installation process follows a simple 9‑step flow:
+Author rights protection
 
-Receive unique URL
+Component sales
 
-Fill out questionnaire
+Network effects
 
-Download demo ZIP
+Together, these form a new economic structure.
 
-Run local test
+13. “Outer‑Only / Inner‑Hidden” Declaration
+This document covers only the Outer OS, grammar, philosophy, and structure.
+Internal logic (core/server) is not disclosed  
+and is not included in this document.
 
-Confirm operation
+14. Origin of the Philosophy (Background & Concept)
+I proposed the Plamodel‑style philosophy:
+“Fix the outer grammar and freely replace the internal logic.”
 
-Pay after confirmation
+This is not a template—
+it is a cross‑language standard that can be reproduced anywhere.
 
-Receive production ZIP
-
-Unlock with password
-
-Start using the system
-
-This flow ensures safety and clarity for beginners and professionals.
-
-## 7. Who This Is For
-Beginners
-Can build applications by combining parts
-
-No need to understand internal logic
-
-Experienced Developers
-Can create their own parts
-
-Can design their own core
-
-Maintain full ownership of internal logic
-
-Researchers / Architects
-Can study the external grammar
-
-Can analyze the structure without accessing internal logic
-
-## 8. What This Repository Contains
-✔ External specification
-✔ External grammar
-✔ Three‑layer structure
-✔ Philosophy (external only)
-✔ Market concept
-✔ Installation flow
-✔ Example folder structure
-
-❌ Internal logic
-❌ Internal reasoning
-❌ Core implementation
-❌ Private algorithms
-
-Internal elements are intentionally excluded.
-
-## 9. Creator’s Statement
-This external OS structure was defined and systematized by S.
-The internal logic, internal reasoning, and internal philosophy remain private.
-Only the external specification is published here.
-
-Anyone may build their own parts, flows, and cores using this external grammar.
+15. Author Declaration
+This document describes the philosophy, structure, and grammar specification.
+It is not code or implementation.
+Internal logic (core/server) remains private
+and is not included in this original document.
