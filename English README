@@ -254,4 +254,10 @@ Internal logic remains private.
 All structures, grammar specifications, and Outer OS concepts
 are original works by S (Shou).
 
-Any implementation or adaptation requires prior authorization.
+Any implementation or adaptation of these structures requires prior authorization.
+
+Note:
+Using the PMP structure in software or commercial systems
+requires a license agreement with the author.
+This repository provides the outer philosophy only.
+
