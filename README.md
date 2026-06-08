@@ -89,7 +89,6 @@ model_admin
 
 model_api
 
-コード
 
 文法セットを用途ごとに分けられる。
 
