@@ -117,7 +117,7 @@ This document is the official original doctrine.
 
 ---
 
-## Background of This Philosophy
+## 1.Background of This Philosophy
 
 Modern programming assumes that “writing code” is the default.  
 However, in reality:
@@ -135,7 +135,7 @@ Therefore, I proposed a philosophy that transforms programming from
 
 ---
 
-## What Is the Plamodel-Style Approach?
+## 2.What Is the Plamodel-Style Approach?
 
 The Plamodel-Style approach means:
 
@@ -147,7 +147,7 @@ it is merely a means to assemble parts.
 
 ---
 
-## Problems This Philosophy Solves
+## 3.Problems This Philosophy Solves
 
 ### ■ Beginner Challenges  
 - Syntax, errors, and environment setup  
@@ -169,7 +169,7 @@ The Plamodel-Style approach solves these **structurally**.
 
 ---
 
-## Core Structure of the Philosophy
+## 4.Core Structure of the Philosophy
 
 ### ■ 4-1. Componentization  
 Logic is extracted as parts: single-purpose, reusable, and robust.
@@ -202,7 +202,7 @@ Humans handle **understanding, judgment, and assembly**.
 
 ---
 
-## Why Beginners Grow (Learning Model)
+## 5.Why Beginners Grow (Learning Model)
 
 - Works immediately  
 - Only settings need to be edited  
@@ -214,7 +214,7 @@ This is the **reverse** of traditional learning.
 
 ---
 
-## Why Experienced Developers Grow (Extension Model)
+## 6.Why Experienced Developers Grow (Extension Model)
 
 - Can add parts  
 - Can modify parts (with permission)  
@@ -223,7 +223,7 @@ This is the **reverse** of traditional learning.
 
 ---
 
-## Market Formation (Economic Model)
+## 7.Market Formation (Economic Model)
 
 A parts market naturally emerges:
 
@@ -238,7 +238,7 @@ This creates a **new programming economy**.
 
 ---
 
-## Why This Philosophy Spreads Globally (Structural Advantage)
+## 8.Why This Philosophy Spreads Globally (Structural Advantage)
 
 - Beginners grow  
 - Experienced developers benefit  
@@ -253,7 +253,7 @@ it is a **new industrial structure**.
 
 ---
 
-## Formal Definition of the Outer OS
+## 9.Formal Definition of the Outer OS
 
 The Outer OS fixes the grammar externally  
 and allows the internal logic to be freely replaced.
@@ -268,7 +268,7 @@ This achieves **complete separation of grammar and logic**.
 
 ---
 
-## Black-Box Architecture
+## 10.Black-Box Architecture
 
 A black box means:
 
@@ -282,7 +282,7 @@ This supports **safety, rights protection, and market scalability**.
 
 ---
 
-## Original Grammar (10 Actions)
+## 11.Original Grammar (10 Actions)
 
 get_posts 
 
@@ -306,7 +306,7 @@ auth
 
 ---
 
-## Market OS Definition
+## 12.Market OS Definition
 
 Built on top of the Outer OS:
 
@@ -318,14 +318,14 @@ Built on top of the Outer OS:
 
 ---
 
-## “Outer Only, Inner Hidden” Declaration
+## 13.“Outer Only, Inner Hidden” Declaration
 
 This doctrine covers only the **Outer OS, grammar, philosophy, and structure**.  
 Internal logic (core/server) is **not included** and remains private.
 
 ---
 
-## Author’s Declaration
+## 14.Author’s Declaration
 
 This doctrine describes the philosophy, structure, and grammar specification.  
 It does **not** include code or implementation.
