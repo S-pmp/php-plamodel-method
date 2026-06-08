@@ -61,25 +61,26 @@ This architecture ensures **safety, rights protection, and market scalability**.
 
 The **10 basic actions** that function as the grammar of the Outer OS:
 
-get_posts
+query        : Retrieve data
 
-get_item
+filter       : Filter by conditions
 
-filter
+sort         : Sort data
 
-sort
+render       : Display / output
 
-paginate
+authenticate : Authenticate user / access
 
-render
+save         : Create new data
 
-save_db
+update       : Update existing data
 
-delete_db
+delete       : Delete data
 
-send_mail
+route        : Navigate / change screen
 
-auth
+notify       : Send notifications / events
+
 
 These form the **minimal grammar** shared across all applications.
 
@@ -289,25 +290,25 @@ This supports **safety, rights protection, and market scalability**.
 
 ## 11.Original Grammar (10 Actions)
 
-get_posts 
-
-get_item  
+query   
 
 filter 
 
-sort 
+sort  
 
-paginate 
+render 
 
-render
+authenticate 
 
-save_db 
+save  
 
-delete_db
+update  
 
-send_mail 
+delete   
 
-auth
+route    
+
+notify      
 
 ---
 
