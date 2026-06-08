@@ -52,32 +52,37 @@
 
 ---
 
- 4. 文法の原典（10アクション規格）
+## 4. 文法（10アクション）
 
-外側OSの文法として機能する **10個の基本アクション**。
+外側OSは、アプリケーションの操作を以下の10アクションに固定する。
 
-get_posts
+query        : データ取得
 
-get_item
+filter       : 条件絞り込み
 
-filter
+sort         : 並び替え
 
-sort
+render       : 表示・出力
 
-paginate
+authenticate : 認証
 
-render
+save         : 新規保存
 
-save_db
+update       : 更新
 
-delete_db
+delete       : 削除
 
-send_mail
+route        : 画面遷移
 
-auth
+notify       : 通知
 
 
-どのアプリでも共通して使える **最小文法**。
+これらは「外側の文法」であり、  
+ロジック（core）はこれらのアクションを通じてのみ実行される。
+
+自然言語の文法が少なくても無限の表現ができるように、  
+この10アクションも“文法”であり、  
+組み合わせることで無限の機能を構築できる。
 
 ---
 
@@ -289,25 +294,26 @@ AIがコードを書く時代において、
 私は、外側の文法として機能する  
 **「10個の基本アクション」** を定義した。
 
-get_posts
-
-get_item
+query
 
 filter
 
 sort
 
-paginate
-
 render
 
-save_db
+authenticate
 
-delete_db
+save
 
-send_mail
+update
 
-auth
+delete
+
+route
+
+notify
+
 
 ---
 
