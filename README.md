@@ -57,14 +57,23 @@
 外側OSの文法として機能する **10個の基本アクション**。
 
 get_posts
+
 get_item
+
 filter
+
 sort
+
 paginate
+
 render
+
 save_db
+
 delete_db
+
 send_mail
+
 auth
 
 コード
@@ -76,7 +85,9 @@ auth
  5. 用途別 model の例（概念）
 
 model_user
+
 model_admin
+
 model_api
 
 コード
@@ -281,14 +292,23 @@ AIがコードを書く時代において、
 **「10個の基本アクション」** を定義した。
 
 get_posts
+
 get_item
+
 filter
+
 sort
+
 paginate
+
 render
+
 save_db
+
 delete_db
+
 send_mail
+
 auth
 
 ---
