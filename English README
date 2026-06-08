@@ -82,7 +82,12 @@ route        : Navigate / change screen
 notify       : Send notifications / events
 
 
-These form the **minimal grammar** shared across all applications.
+hese form the **minimal grammar** shared across all applications.
+The core logic is executed *only* through these actions, ensuring a complete separation between grammar (outer structure) and logic (inner black box).
+
+Just as natural languages can express infinite meaning with a small set of grammatical rules,  
+these 10 actions serve as the “grammar” of the Outer OS —  
+and by combining them, an unlimited number of features can be constructed.
 
 ---
 
