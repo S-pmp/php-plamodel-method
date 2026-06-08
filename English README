@@ -4,6 +4,11 @@
 This philosophy, along with the Outer OS, grammar specification, and black-box architecture, was proposed, defined, and systematized by **S (Shou)**.  
 This repository serves as the official documentation of the **Outer Structure OS (Outer OS)**.
 
+This philosophy is closely related to component-based programming, modular software architecture, 
+grammar-based programming, and black-box architecture. It also aligns with modern AI-era programming 
+philosophies and shares similarities with low-code / no-code approaches, while providing a more 
+structured and scalable foundation.
+
 ---
 
 # 1. Purpose of This Repository
