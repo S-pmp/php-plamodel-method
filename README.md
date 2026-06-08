@@ -56,7 +56,6 @@
 
 外側OSの文法として機能する **10個の基本アクション**。
 
-
 get_posts
 get_item
 filter
