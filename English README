@@ -1,191 +1,60 @@
-Plamodel‑Style Programming Philosophy
-The Original Document of the Outer OS, Grammar Specification, and Black‑Box Architecture
-Author: S (Shou)
+# Plamodel-Style Programming Philosophy  
+## The Original Doctrine of the Outer OS, Grammar Specification, and Black-Box Architecture (by S)
 
-This document defines the Plamodel‑Style Programming Philosophy,
-including the Outer OS, grammar specification, and black‑box architecture.
-It serves as the official original source.
+This philosophy, along with the Outer OS, grammar specification, and black-box architecture, was proposed, defined, and systematized by **S (Shou)**.  
+This repository serves as the official documentation of the **Outer Structure OS (Outer OS)**.
 
-1. Background
-Modern programming assumes that “writing code” is the default.
-But in reality:
+---
 
-Beginners struggle with syntax and environment setup
+# 1. Purpose of This Repository
 
-Experienced developers rewrite the same logic repeatedly
+This repository documents the original philosophy and technical structure of the **Outer Structure OS (Outer OS)**, which is built on the following principles:
 
-Templates are rigid and non‑extensible
+- Fixing the grammar (10 Actions) on the outside  
+- Black-boxing the internal logic (core)  
+- A three-layer structure: **public → model → core**  
+- Complete separation of grammar and logic  
+- A programming structure optimized for the AI era  
 
-AI now generates massive amounts of code
+Just as natural languages can express infinite meanings with a small set of grammar rules,  
+these **10 Actions** function as a minimal grammar that can generate unlimited application behavior.
 
-Language barriers still remain
+---
 
-This structure has reached its limit.
+# 2. Structure of the Outer OS (Outer Structure OS)
 
-The Plamodel‑Style Philosophy shifts programming from:
+The Outer OS consists of the following **three layers**:
 
-“writing code” → “assembling components.”
-
-2. What Is the Plamodel‑Style Approach?
-A programming philosophy where:
-
-Programs are built from components (logic units)
-
-Behavior is defined through configuration
-
-Features emerge through combination
-
-Writing code is no longer the goal—
-it becomes a tool for assembling components.
-
-3. Problems This Philosophy Solves
-For Beginners
-Syntax errors block progress
-
-Nothing runs, so learning stalls
-
-For Experienced Developers
-Rewriting the same logic
-
-Switching mental models across languages
-
-For the Market
-Templates are “finished products” with low extensibility
-
-Logic authorship is not protected
-
-In the AI Era
-AI writes code
-
-Humans still learn as if they must write it
-
-The Plamodel‑Style approach solves these issues structurally.
-
-4. Core Structure
-4.1 Componentization
-Logic is extracted into minimal, reusable, stable components.
-
-4.2 Configuration
-Behavior changes through configuration files—
-beginners only modify settings.
-
-4.3 Combination
-Complex features emerge by combining components,
-like assembling a plastic model.
-
-4.4 Rights Structure
-Logic authors retain copyright
-
-Users receive usage rights
-
-Viewing rights are separate
-
-Modification requires permission
-
-4.5 Market Structure
-Components become assets.
-More components → more value → network effects.
-
-4.6 Language Independence
-Works across PHP, JavaScript, Python, and more.
-
-4.7 Alignment With the AI Era
-AI writes code.
-Humans focus on understanding, judging, and assembling.
-
-5. Why Beginners Grow
-Something works immediately
-
-Only settings are touched
-
-Nothing breaks
-
-“Touch → Change → Understand”
-
-Code is read only when needed
-
-This is the reverse of traditional learning.
-
-6. Why Experienced Developers Grow
-Add new components
-
-Modify logic (with permission)
-
-Develop across languages with one philosophy
-
-Publish components to the market
-
-7. Market Formation
-A natural programming economy emerges:
-
-Basic components
-
-Extended components
-
-Advanced components
-
-Viewing rights
-
-Templates
-
-Learning content
-
-8. Why This Philosophy Spreads Globally
-Beginners grow
-
-Experienced developers benefit
-
-Language‑independent
-
-Market expands automatically
-
-Rights are protected
-
-Ideal for the AI era
-
-Developer thinking becomes structured
-
-This is not a technology—
-it is a new industrial structure.
-
-9. Formal Definition of the Outer OS
-The Outer OS (Outer Structure OS) fixes the program’s grammar externally
-while allowing internal logic to be replaced freely.
-
-It consists of three layers:
-
-● parts / flow — Outer Grammar
-The application grammar is fixed externally.
+### ● parts / flow (Outer Grammar)  
+Defines the application grammar externally.  
 No logic is written here.
 
-● model — Receiver Layer
+### ● model (Receiver Layer)  
 Receives the outer grammar and passes it to the core.
 
-● core — Logic Layer
-Executes the actual processing.
+### ● core (Logic / Black Box)  
+Executes the actual processing.  
 Completely separated from the outer grammar.
 
-This enables complete separation of grammar and logic.
+---
 
-10. Black‑Box Architecture
-The central concept of the Outer OS.
+# 3. Black-Box Architecture
 
-A black box means:
+The core concept of the Outer OS.
 
-Internal logic is invisible
+- Internal logic (core) is invisible from the outside  
+- Complete separation of **public** and **server**  
+- The outside contains only grammar  
+- The inside contains only logic  
+- The outside cannot modify the internal logic  
 
-public and server are fully separated
+This architecture ensures **safety, rights protection, and market scalability**.
 
-Outer layer = grammar only
+---
 
-Inner layer = logic only
+# 4. Original Grammar (10-Action Specification)
 
-External modification is impossible
-
-This ensures security, rights protection, and market viability.
-
-11. Original Grammar Specification (10 Actions)
-The minimal universal grammar:
+The **10 basic actions** that function as the grammar of the Outer OS:
 
 get_posts
 
@@ -207,57 +76,261 @@ send_mail
 
 auth
 
-These 10 actions form the foundation of the Outer OS.
+These form the **minimal grammar** shared across all applications.
 
-12. Definition of the Market OS
+---
+
+# 5. Example Models (Conceptual)
+
+model_user
+
+model_admin
+
+model_api
+
+Grammar sets can be separated by purpose.
+
+---
+
+# 6. Market OS
+
+The Market OS is built on top of the Outer OS and defines a new economic structure:
+
+- Classification of parts (basic, extended, advanced)  
+- Viewing rights  
+- Protection of authors’ logic  
+- Buying and selling of parts  
+- Network effects  
+
+---
+
+# 7. Full Original Doctrine (Complete Text)
+
+Below is the full original doctrine written by **S**, preserved exactly as authored.
+
+---
+
+# Plamodel-Style Programming Philosophy — Original Doctrine
+
+This philosophy, along with the Outer OS, grammar specification, and black-box architecture, was proposed, defined, and systematized by **S (Shou)**.  
+This document is the official original doctrine.
+
+---
+
+## Background of This Philosophy
+
+Modern programming assumes that “writing code” is the default.  
+However, in reality:
+
+- Beginners struggle with syntax  
+- Experienced developers rewrite the same logic repeatedly  
+- The market is flooded with rigid templates  
+- AI is generating massive amounts of code  
+- Language barriers still exist  
+
+This situation has reached a **structural limit**.
+
+Therefore, I proposed a philosophy that transforms programming from  
+**“writing code” to “assembling components.”**
+
+---
+
+## What Is the Plamodel-Style Approach?
+
+The Plamodel-Style approach means:
+
+**Creating program logic as “parts”  
+and running them through “configuration” and “combination.”**
+
+Writing code is not the goal—  
+it is merely a means to assemble parts.
+
+---
+
+## Problems This Philosophy Solves
+
+### ■ Beginner Challenges  
+- Syntax, errors, and environment setup  
+- No visible results early on  
+
+### ■ Inefficiency for Experienced Developers  
+- Rewriting the same logic  
+- Switching mental models between languages  
+
+### ■ Market Limitations  
+- Templates are “finished products” with low extensibility  
+- Logic copyright is not protected  
+
+### ■ Contradiction in the AI Era  
+- AI writes code  
+- Humans still learn “writing-first” programming  
+
+The Plamodel-Style approach solves these **structurally**.
+
+---
+
+## Core Structure of the Philosophy
+
+### ■ 4-1. Componentization  
+Logic is extracted as parts: single-purpose, reusable, and robust.
+
+### ■ 4-2. Configuration  
+Parts can change behavior through configuration files.  
+Beginners only need to edit settings.
+
+### ■ 4-3. Combination  
+Complex features emerge by combining parts—  
+just like assembling a plastic model.
+
+### ■ 4-4. Rights Structure  
+- Logic copyright belongs to the author  
+- Users only obtain usage rights  
+- Viewing rights are separate  
+- Modification requires permission  
+
+### ■ 4-5. Market Structure  
+More parts → more value.  
+Network effects similar to the App Store.
+
+### ■ 4-6. Language Independence  
+Works in PHP, JavaScript, Python, etc.  
+The philosophy transcends technology.
+
+### ■ 4-7. Alignment with the AI Era  
+AI writes code.  
+Humans handle **understanding, judgment, and assembly**.
+
+---
+
+## Why Beginners Grow (Learning Model)
+
+- Works immediately  
+- Only settings need to be edited  
+- Hard to break  
+- Touch → Change → Understand  
+- Code is read only when necessary  
+
+This is the **reverse** of traditional learning.
+
+---
+
+## Why Experienced Developers Grow (Extension Model)
+
+- Can add parts  
+- Can modify parts (with permission)  
+- Can develop across languages with the same philosophy  
+- Can publish their own parts to the market  
+
+---
+
+## Market Formation (Economic Model)
+
+A parts market naturally emerges:
+
+- Basic parts  
+- Extended parts  
+- Advanced parts  
+- Viewing rights  
+- Templates  
+- Learning content  
+
+This creates a **new programming economy**.
+
+---
+
+## Why This Philosophy Spreads Globally (Structural Advantage)
+
+- Beginners grow  
+- Experienced developers benefit  
+- Language-independent  
+- Market expands automatically  
+- Rights are protected  
+- Optimized for the AI era  
+- Structures engineering thinking  
+
+This is not just technology—  
+it is a **new industrial structure**.
+
+---
+
+## Formal Definition of the Outer OS
+
+The Outer OS fixes the grammar externally  
+and allows the internal logic to be freely replaced.
+
+It consists of:
+
+- parts / flow (outer grammar)  
+- model (receiver)  
+- core (logic)  
+
+This achieves **complete separation of grammar and logic**.
+
+---
+
+## Black-Box Architecture
+
+A black box means:
+
+- Internal logic is invisible  
+- public and server are fully separated  
+- Outside = grammar  
+- Inside = logic  
+- Outside cannot modify the inside  
+
+This supports **safety, rights protection, and market scalability**.
+
+---
+
+## Original Grammar (10 Actions)
+
+get_posts 
+
+get_item  
+
+filter 
+
+sort 
+
+paginate 
+
+render
+
+save_db 
+
+delete_db
+
+send_mail 
+
+auth
+
+---
+
+## Market OS Definition
+
 Built on top of the Outer OS:
 
-Component categories
+- Part classification  
+- Viewing rights  
+- Author protection  
+- Part transactions  
+- Network effects  
 
-Viewing rights
+---
 
-Author rights protection
+## “Outer Only, Inner Hidden” Declaration
 
-Component sales
+This doctrine covers only the **Outer OS, grammar, philosophy, and structure**.  
+Internal logic (core/server) is **not included** and remains private.
 
-Network effects
+---
 
-Together, these form a new economic structure.
+## Author’s Declaration
 
-13. Outer‑Only / Inner‑Hidden Declaration
-This document covers:
+This doctrine describes the philosophy, structure, and grammar specification.  
+It does **not** include code or implementation.
 
-Outer OS
-
-Grammar
-
-Philosophy
-
-Structure
-
-It does not include internal logic (core/server).
-The internal implementation remains private.
-
-14. Origin of the Philosophy
-I proposed the principle:
-
-“Fix the outer grammar and freely replace the internal logic.”
-
-This is not a template—
-it is a cross‑language standard.
-
-15. Author Declaration
-This document defines the philosophy, structure, and grammar specification.
-It is not code or implementation.
-Internal logic remains private.
-
-All structures, grammar specifications, and Outer OS concepts
-are original works by S (Shou).
-
-Any implementation or adaptation of these structures requires prior authorization.
-
-Note:
-Using the PMP structure in software or commercial systems
-requires a license agreement with the author.
-This repository provides the outer philosophy only.
+Internal logic is private.  
+All concepts of the Outer OS, grammar, and structure are the original system of **S**.  
+Implementation or application requires **prior permission (license)**.
 
