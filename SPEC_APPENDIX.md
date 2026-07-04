@@ -1,9 +1,9 @@
-## [secX] 目的（Purpose）
+## 目的（Purpose）
 PMP（php-plamodel-method）は「外側固定 × 文法10アクション × ロジック一本化」を実現するための構造的フレームです。
 目的は、UI層・文法層・ロジック層を完全に分離し、依存ゼロで安全かつ拡張可能なアプリケーション構造を提供することです。
 この付録では、外側OSの目的と構造の意図を補足します。
 
-## [secX] 用語定義（Glossary）
+## 用語定義（Glossary）
 
 - **parts**  
   UI層。外側の文法を呼び出すだけのパーツ。ロジックは書かない。
@@ -75,7 +75,7 @@ PMP の最小構造として動作します。
 
 ---
 
-## [secX] 構造の流れ（Flow）
+## 構造の流れ（Flow）
 
 PMP の外側OSは、parts（UI）→ model（文法）→ core（ロジック）の3層で構成されます。  
 parts はユーザー操作を受け取り、model に処理を委譲します。  
@@ -93,10 +93,10 @@ The core/server logic remains private and is not part of this document.
 
 
 ## 付録（Appendix）
-- [目的（Purpose）](#secx-目的purpose)
-- [用語定義（Glossary）](#secx-用語定義glossary)
-- [最小実装例（Minimal Example）](#secx-最小実装例minimal-example)
-- [構造の流れ（Flow）](#secx-構造の流れflow)
+- [目的（Purpose）](#目的purpose)
+- [用語定義（Glossary）](#用語定義glossary)
+- [最小実装例（Minimal Example）](#最小実装例minimal-example)
+- [構造の流れ（Flow）](#構造の流れflow)
 
 
 
