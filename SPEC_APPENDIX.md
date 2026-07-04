@@ -40,7 +40,12 @@ PMP（php-plamodel-method）は「外側固定 × 文法10アクション × ロ
   外側OSが提供する最小動作単位。  
   query / filter / sort / render / authenticate / save / update / delete / route / notify  
   の10種類で構造全体を統一する。
-  
+
+  ---
+
+## 最小実装例（Minimal Example）
+
+PMP の最小構造は次の 3 ファイルで成立します：
 
 ### **parts/home.php（UI層）**  
 外側OSの入口。  
@@ -58,7 +63,6 @@ core が理解できる形式に変換する層。
 外側から完全に隠されており、  
 ここを守ることでアプリケーション全体の安全性が保たれる。
 
----
 
 この3階層が揃うことで、
 
@@ -68,6 +72,8 @@ core が理解できる形式に変換する層。
 
 が成立し、  
 PMP の最小構造として動作します。
+
+---
 
 ## [secX] 構造の流れ（Flow）
 
