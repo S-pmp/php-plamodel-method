@@ -81,6 +81,19 @@ This forms the minimal structure of PMP.
 
 ---
 
+## Minimal Example
+
+The minimal structure of PMP consists of three files:
+
+- **parts/home.php** – UI layer that receives user actions and calls the outer grammar  
+- **model/home.php** – grammar layer that translates requests using the 10 actions  
+- **core/home.php** – logic layer (black box) where all processing is implemented
+
+Together, these three files establish the smallest possible implementation of the outer OS:
+a fixed UI, a unified grammar, and a single protected logic layer.
+
+---
+
 ## Flow
 
 The outer OS of PMP consists of three layers:  
