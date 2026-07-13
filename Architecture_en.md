@@ -118,7 +118,21 @@ The Outer OS consists of three layers:
 ### 3. core (Logic / Black Box)
 - The only place where logic is implemented  
 - Completely hidden from the outside  
-- Center of safety and extensibility  
+- Center of safety and extensibility
+
+### Note: Model / Core Structure in the Complete Version
+
+This Architecture.md describes the structural philosophy of the Outer OS.
+In the complete version, the model layer is divided into two parts:
+
+- **model.php** — the grammar dictionary (translates parts' requests into the 10 grammar actions)
+- **model/** — the outer logic layer (the only area where users write their logic)
+
+Additionally, **core is the layer that contains the logic for closing and executing the grammar (10 actions)**,
+while outer logic is written in the model/ directory.
+
+Both core and model.php are foundational layers that users do not modify.
+
 
 ### Effects of Three-Layer Separation
 
