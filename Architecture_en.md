@@ -53,15 +53,53 @@ The Outer OS standardizes all application behavior into 10 minimal actions:
 - update  
 - delete  
 - route  
-- notify  
+- notify
 
-### Role of the Grammar 10 Actions
+---
+
+## Grammar 10 Actions – Roles
+
+- The 10 Actions are defined as the minimal set of operations that can express all outer‑layer behaviors without overlap or omission when decomposing the structure.
+
+- The three‑layer architecture — parts → model → core — separates outer processing from internal logic, creating a structure where the core cannot be accessed directly from the outside.
+
+- The model functions as a “translation dictionary,” converting inputs received by parts into internal representations that the core can understand.
+
+---
+
+## PMP Grammar (10 Actions)
+
+In PMP, the outer structure is decomposed into ten minimal actions, treated as “words.”  
+Complex behavior is expressed by chaining these actions together, forming “sentences.”
+
+### **Example (list display)**
+
+query → filter → sort → render
+
+
+Even complex game logic follows the same grammar.  
+For example, attacking an enemy and updating the screen:
+
+### **Example (game action)**
+
+query (get enemy HP) → update (reduce HP) → render (refresh screen) → notify (effect)
+
+
+Each feature is composed by combining multiple actions.  
+Because the same grammar applies to web apps, applications, and games,  
+PMP provides a universal outer‑layer structure independent of languages or frameworks.
+
+---
+
+## Role of the Grammar 10 Actions
 
 - Provide a grammar that allows the model to act as a “translation dictionary”  
 - Standardize the flow from parts → model → core  
 - Break down application behavior into minimal structural units  
 
-### Effects of the Grammar 10 Actions
+---
+
+## Effects of the Grammar 10 Actions
 
 - **Structural consistency**  
 - **Standardized processing**  
@@ -70,11 +108,19 @@ The Outer OS standardizes all application behavior into 10 minimal actions:
 
 The Grammar 10 Actions are the “language” of the Outer OS.
 
+
 ---
 
 ## 3. Black Box Logic
 
 `core.php` is the **only** place where logic is implemented.
+
+## Black Box Structure – Roles
+
+- The three‑layer architecture — parts → model → core — separates outer‑layer processing from internal logic, resulting in a structure where the core cannot be accessed directly from the outside.
+
+- The model acts as a “translation dictionary,” converting outer‑layer inputs from parts into internal representations that the core can execute.
+
 
 ### Meaning of the Black Box
 
