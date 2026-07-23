@@ -28,10 +28,6 @@ Logic layer.
 The only place where processing is implemented.  
 Protecting this layer ensures the safety of the entire application.
 
-### 10 Actions  
-The minimal operational units that function as the outer grammar.  
-Examples include basic operations such as `get_posts`.
-
 ### Zero Dependency  
 A structure that does not rely on external libraries or frameworks.  
 This minimizes attack surface and strengthens security.
