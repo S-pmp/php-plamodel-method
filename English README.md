@@ -294,9 +294,8 @@ Internal logic (core/server) is **not included** and remains private.
 
 ## 7.14 Author’s Declaration
 
-This doctrine describes the philosophy, structure, and grammar specification.  
-It does **not** include code or implementation.
+This original specification covers documents such as Architecture, SPEC_APPENDIX, Overview, Compatibility, and Market_OS, which describe the concepts, structure, and grammar of the Outer OS and Civilization OS.  
+Internal logic (core/server) is private and not included in this specification.  
+All structural concepts, grammar definitions, and Outer OS ideas described here are part of an original system created by the author, S.  
+**Implementation or application of these concepts requires prior permission (license).**
 
-Internal logic is private.  
-All concepts of the Outer OS, grammar, and structure are the original system of **S**.  
-Implementation or application requires **prior permission (license)**.
